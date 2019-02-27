@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import TodoItems from './TodoItems';
-import './stylesheets/Todo.css';
+// import './stylesheets/Todo.css';
 class Todo extends Component {
   state = {
     todoItems: [4,6,7,9 ],
@@ -32,10 +32,10 @@ class Todo extends Component {
   //     }))
   //   }
   // }
-  onClick=()=>{
-    // Automatically defocus the input on focus (muahaha)
-    this.refs.buttonTag.classList.toggle('appk');
-  }
+  // onClick=()=>{
+  //   // Automatically defocus the input on focus (muahaha)
+  //   this.refs.buttonTag.classList.toggle('appk');
+  // }
   handleChange = (e) => {
     this.setState({	newTodo:	e.target.value	})
   }
@@ -72,9 +72,9 @@ class Todo extends Component {
     return (
       <div className="container">
         <Header title="MY TODO TITLE" />
-        <button   className = 'buttonField' 
+        {/* <button   className = 'buttonField' 
           ref = 'buttonTag' 
-          onClick={this.onClick}> check refs </button>
+          onClick={this.onClick}> check refs </button> */}
         <h1>Welcome to my todo App </h1>
         {
           this.state.todoItems.map(item => (
