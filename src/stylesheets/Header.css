@@ -1,0 +1,34 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:  #222e50;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.headerContainer h2 {
+  width: 29%;
+  color: white;
+  padding-left: 6px;
+}
+
+.headerContainer ul{
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.headerContainer ul li {
+  list-style: none;
+  padding-right: 15px;
+}
+.headerContainer ul li a {
+  color: white;
+  text-decoration: none
+}
+
+.headerContainer ul li a:hover {
+  color: red;
+}

@@ -1,0 +1,26 @@
+.todoItems {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin: 5px 0 5px 0;
+  background: #e1e1e1;
+  align-items: center;
+}
+
+.individualItems {
+  font-size: 14px
+}
+
+.todoItems button {
+  background: rgb(48, 2, 2);
+  color: #ffffff;
+  outline: 0;
+  border: 0;
+  padding: 5px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.todoItems button:hover {
+  background: red
+}
